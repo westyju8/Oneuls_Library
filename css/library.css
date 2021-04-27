@@ -6,7 +6,7 @@ html,body	{font:700 10pt/144% "Nanum Gothic",sans-serif; color:#262626;}
 img 		{max-width:100%;}
 
 /*상단*/
-header				{background:#f1dbdb; padding:20px 0 68px 0;}
+header				{background:#f5e5e5; padding:20px 0 50px 0;}
 header>div		{max-width:1390px; margin:auto; text-align:center;}
 header nav		{text-align:right; margin-bottom:30px;}
 header nav a	{margin-left:10px;}
