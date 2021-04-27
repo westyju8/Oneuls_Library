@@ -1,0 +1,9 @@
+#newBook h2 		{margin-bottom:20px;}
+#newBook>section	{padding:20px 10px; background:yellow;}
+#newBook button:first-of-type {margin-right:20px;}
+#newBook button:last-of-type  {margin-left:20px;}
+#slideBook 			{width:auto;}
+#slideBook>div 		{padding-right:0;}
+#slideBook section	{border-top:2px solid red;}
+#slideBook img 		{width:auto; margin:auto;}
+#slideBook p 	{padding-bottom:40px;}

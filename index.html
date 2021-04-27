@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>오늘의 서재</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<script src="js/library.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/library.css">
+</head>
+<body>
+
+	<header>
+		<div>
+			<nav>
+				<a href="#"><img src="images/log_in.png" alt="로그인"></a>
+				<a href="#"><img src="images/join.png" alt="회원가입"></a>
+				<a href="#"><img src="images/mobile.png" alt="모바일 웹"></a>
+			</nav>
+			<h1><a href="index.html" id="logo"><img src="images/logo.png" alt="오늘의 서재 로고"></a></h1>
+		</div>
+	</header>
+	<nav id="menu">
+		<ul>
+			<li>
+				<a href="#">홈</a>
+			</li>
+			<li>
+				<a href="#">카테고리</a>
+				<nav>
+					<a href="page2.html">일반소설</a>
+					<a href="page2.html">인문/사회</a>
+					<a href="page2.html">경영/경제</a>
+					<a href="page2.html">자기계발</a>
+					<a href="page2.html">에세이/시</a>
+					<a href="page2.html">여행</a>
+					<a href="page2.html">종교</a>
+					<a href="page2.html">외국어</a>
+				</nav>
+			</li>
+			<li>
+				<a href="page4.html">오늘의 서재</a>
+			</li>
+			<li>
+				<a href="#">북 매거진</a>
+			</li>
+			<li>
+				<a href="#">장바구니</a>
+			</li>
+			<li>
+				<a href="page5.html">마이페이지</a>
+			</li>
+		</ul>
+	</nav>
+	<section id="banner">
+		<h2>배너 슬라이드</h2>
+		<div id="slide">
+			<a href="#"><img src="images/ad1.jpg" alt="새해맞이 이벤트 배너"></a>
+			<a href="#"><img src="images/ad2.jpg" alt="무슨무슨 이벤트 배너"></a>
+			<a href="#" class="act"><img src="images/ad3.jpg" alt="어떤어떤 이벤트 배너"></a>
+			<a href="#"><img src="images/ad4.jpg" alt="어떤어떤 이벤트 배너"></a>
+			<a href="#"><img src="images/ad5.jpg" alt="어떤어떤 이벤트 배너"></a>
+		</div>
+		<div id="arrows">
+			<button type="button" id="bannerArrLeft"><img src="images/left.png" alt="왼쪽 방향 화살표"></button>
+			<button type="button" id="bannerArrRight"><img src="images/right.png" alt="오른쪽 방향 화살표"></button>
+		</div>
+	</section>
+	<div id="newBook">
+		<section>
+			<h2 class="title2">신간도서 &#x276F;</h2>
+			<div>
+				<button type="button" id="bookBtnLeft"><img src="images/roundleft.png" alt="왼쪽방향 화살표"></button>
+				<div id="slideBookParent">
+					<div id="slideBook">
+						<div class="div1 divAll">
+							<section class="slideSection">
+								<a href="#"><img src="images/new01.png" alt="코로나 사이언스"></a>
+								<h3>코로나 사이언스</h3>
+								<p>기초 과학 연구원</p>
+							</section>
+							<section class="slideSection">
+								<a href="#"><img src="images/new02.png" alt="어린이라는 세계"></a>
+								<h3>어린이라는 세계</h3>
+								<p>김소영</p>
+							</section>
+							<section class="slideSection">
+								<a href="#"><img src="images/new03.png" alt="부의 속도"></a>
+								<h3>부의 속도</h3>
+								<p>돈파파</p>
+							</section>
+							<section class="slideSection">
+								<a href="#"><img src="images/new04.png" alt="관종의 조건"></a>
+								<h3>관종의 조건</h3>
+								<p>임홍택</p>
+							</section>
+							<section class="slideSection">
+								<a href="#"><img src="images/new05.png" alt="가짜 뉴스의 시대"></a>
+								<h3>가짜 뉴스의 시대</h3>
+								<p>제일리 오코너</p>
+							</section>
+						</div>
+						<div class="div2 divAll">
+							<section class="slideSection">
+								<a href="#"><img src="images/new06.png" alt="진짜 미국식 주식투자"></a>
+								<h3>진짜 미국식 주식투자</h3>
+								<p>뉴욕주민</p>
+							</section>
+							<section class="slideSection">
+								<a href="#"><img src="images/new07.png" alt="넛지의 천재들"></a>
+								<h3>넛지의 천재들</h3>
+								<p>제즈 그룸, 에이프릴 벨라코드</p>
+							</section>
+							<section class="slideSection">
+								<a href="#"><img src="images/new08.png" alt="뉴로제너레이션"></a>
+								<h3>"뉴로제너레이션</h3>
+								<p>탠 리, 김선미</p>
+							</section>
+							<section class="slideSection">
+								<a href="#"><img src="images/new09.png" alt="니클의 소년들"></a>
+								<h3>니클의 소년들</h3>
+								<p>콜슨 화이트헤드</p>
+							</section>
+							<section class="slideSection">
+								<a href="#"><img src="images/new10.png" alt="돈의 시나리오"></a>
+								<h3>돈의 시나리오</h3>
+								<p>김종봉, 제갈현열</p>
+							</section>
+						</div>
+						<div class="div3 divAll">
+							<section class="slideSection">
+								<a href="#"><img src="images/new11.png" alt="미국 주식 스타터백"></a>
+								<h3>미국 주식 스타터백</h3>
+								<p>정두현</p>
+							</section>
+							<section class="slideSection">
+								<a href="#"><img src="images/new12.png" alt="빅히트 시그널"></a>
+								<h3>빅히트 시그널</h3>
+								<p>윤선미</p>
+							</section>
+							<section class="slideSection">
+								<a href="#"><img src="images/new13.png" alt="아파트가 어때서"></a>
+								<h3>아파트가 어때서</h3>
+								<p>양동신</p>
+							</section>
+							<section class="slideSection">
+								<a href="#"><img src="images/new14.png" alt="어른이 되어 그만둔 것"></a>
+								<h3>어른이 되어 그만둔 것</h3>
+								<p>이치다 노리코</p>
+							</section>
+							<section class="slideSection">
+								<a href="#"><img src="images/new15.png" alt="지금 팔리는 것들의 비밀"></a>
+								<h3>지금 팔리는 것들의 비밀</h3>
+								<p>최명화, 김보라</p>
+							</section>
+						</div>
+					</div>
+				</div>
+				<button type="button" id="bookBtnRight"><img src="images/roundright.png" alt="오른쪽방향 화살표"></button>
+			</div>
+		</section>
+	</div>
+	<section id="bestSeller">
+		<div id="popImg">
+			<div>
+				<img src="images/best00.jpg" alt="달러구트 꿈 백화점">
+				<button type="button">닫기</button>
+			</div>
+		</div>
+		<h2 class="title2">베스트 셀러 &#x276F;</h2>
+		<section>
+			<div id="imgArea">
+				<img src="images/best_main.png" alt="달러구트 꿈 백화점">
+				<button type="button" id="iconPlus">&#10010;</button>
+			</div>
+			<div id="txtArea">
+				<p><img src="images/star.png" alt="별점">4.4</p>
+				<q>잠들어야만 입장 가능합니다.</q>
+				<h3>달러구트 꿈 백화점<span>이미예</span></h3>
+				<h4>만들어진 꿈을 살 수 있는 상점이 있다면?</h4>
+				<p>
+					꾸고 싶은 꿈을 살 수 있다면 사람들은 어떤 꿈을 고를까?<br>
+					&#10094;달러구트 꿈 백화점&#x276F;은 &#8245;무의식에서만 존재하는 꿈을 정말 사고<br>
+					팔 수 있을까?&#8242;라고 기발한 질문에 답을 찾아가는 판타지 소설이다.<br>
+					꿈을 통해 그리움과 상처를 치유하는 이야기를 꿈을 만드는 사람,<br>
+					파는 사람, 사는 사람 각각의 관점에서 풀어냈다.
+				</p>
+			</div>
+		</section>
+		<div id="bestImgs">
+			<section>
+				<a href="#"><img src="images/best01.png" alt="축의 전환"></a>
+				<h5>축의 전환</h5>
+				<p>마우로 기옌</p>
+			</section>
+			<section>
+				<a href="#"><img src="images/best02.png" alt="공정하다 착각"></a>
+				<h5>공정하다 착각</h5>
+				<p>마이클 샌델</p>
+			</section>
+			<section>
+				<a href="#"><img src="images/best03.png" alt="미드나잇 선 시리즈"></a>
+				<h5>미드나잇 선 시리즈</h5>
+				<p>스테프니 메이어</p>
+			</section>
+			<section>
+				<a href="#"><img src="images/best04.png" alt="나를 나답게 만드는 것들"></a>
+				<h5>나를 나답게 만드는 것들</h5>
+				<p>빌 설리번</p>
+			</section>
+			<section>
+				<a href="#"><img src="images/best05.png" alt="부의 대이동"></a>
+				<h5>부의 대이동</h5>
+				<p>오건영</p>
+			</section>
+		</div>
+	</section>
+	<footer>
+		<div>
+			<h2>고객센터</h2>
+			<div>
+				<a href="#">이용약관</a>
+				<a href="#">개인 정보 처리 방침</a>
+				<a href="#">청소년 보호 정책</a>
+				<a href="#">사업자 정보 확인</a>
+				<a href="#">페이스북</a>
+				<a href="#">인스타그램</a><br><br>
+				<a href="#">회사소개</a>
+				<a href="#">인재채용</a><br><br>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
