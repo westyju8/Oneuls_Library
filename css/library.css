@@ -43,7 +43,7 @@ header+nav li>a {font-size:1.35rem; color:#464545; text-decoration:none; padding
 #slide img   {width:100%; display:block;}
 
 /*양쪽화살표*/
-#arrows 	   {position:absolute; top:0; width:100%; top:40%; display:flex; justify-content:space-around; z-index:1;}
+#arrows 	   {position:absolute; width:100%; top:40%; display:flex; justify-content: space-around; padding-right: 60px; z-index:1;}
 #arrows button {opacity: 80%; border:none; background: transparent;}
 
 
